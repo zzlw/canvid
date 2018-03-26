@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="js/normalize.css/normalize.css">
+</head>
+
+
+<style>
+    
+
+
+    canvas .canvid {
+        width: 100%
+    }
+    
+    body, html{
+        height: 100%;
+        width: 100%;
+        background: black;
+    }
+
+    #canvid-bk-video{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+    }
+
+</style>
+
+<body>
+    <div id="canvid-bk-video"></div>
+</body>
+
+<script src="node_modules/canvid/canvid.js"></script>
+
+<script>
+    var canvidControl = canvid({
+        selector: '#canvid-bk-video',
+        videos: {
+            zlxvideo: {
+                src: 'img/myvideo3.jpg', frames: 165, cols: 6
+            }
+        },
+        width: "375",
+        height: "667",
+        loaded: function () {
+            canvidControl.play('zlxvideo', false, 20);//15帧速度播放
+        
+        }
+    });
+</script>
+
+</html>
