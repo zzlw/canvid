@@ -4,7 +4,7 @@
 
 ## dev
     
-    cnpm i && bower update
+    npm i serve -g && serve -o
 
 
 ## 参考： 
