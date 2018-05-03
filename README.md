@@ -6,6 +6,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/zzlw/canvid.svg)](https://github.com/zzlw/canvid/network)
 [![GitHub stars](https://img.shields.io/github/stars/zzlw/canvid.svg)](https://github.com/zzlw/canvid/stargazers)
 [![GitHub license](https://img.shields.io/github/license/zzlw/canvid.svg)](https://github.com/zzlw/canvid/blob/master/LICENSE)
+[![Coverage Status](https://coveralls.io/repos/github/zzlw/canvid/badge.svg?branch=master)](https://coveralls.io/github/zzlw/canvid?branch=master)
 
 ## dev
     
